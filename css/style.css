@@ -1,3 +1,36 @@
-.navbar{
-    color: blueviolet;  
-  }
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(188,156,105)
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+ 
+
+
+div {
+  margin: 20px;
+  text-align: top;
+  border: 1px solid  #623412; 
+  padding: 10px; 
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  display: block; 
+}
+
+h2,h4 {
+  margin: 0;
+  color:#3f2a14;
+}
